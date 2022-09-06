@@ -1,0 +1,139 @@
+.logoAlura{
+    width: 100px;
+    border-radius: 10px;
+    background: radial-gradient(rgb(202, 202, 242), rgb(152, 152, 240));
+    padding: 10px 10px 10px 10px;
+    display: inline;   
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(252, 196, 126);  
+    padding: 10px 0 10px 0px;  
+    display:block;
+    margin:0px;
+    color:brown;
+}
+.tituloh2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(252, 196, 126);  
+    padding: 1px 0 1px 0px; 
+    margin:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image:url(plantas.jpg);
+    background-repeat: no-repeat;
+}
+.sabiasQue{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+    padding: 1px;
+   
+
+}
+.texto{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: beige;
+      
+}
+fieldset{
+    background-color: beige;
+    border:none 
+
+}
+
+.input-texto{
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline;
+    box-shadow: 10px 10px 30px 20px grey;
+    backdrop-filter:blur(4px); 
+    margin: 50px 30px 10px 30px; 
+    background: linear-gradient(rgb(242, 164, 95), white); 
+}
+.input-texto:hover{
+    cursor: pointer;
+    
+}    
+   
+
+.importante{
+    background-color: rgb(254, 212, 202);
+}  
+.encriptar{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2PX;
+    display: inline;
+    text-align: center;
+    margin:10px 10px 10px 120px;
+    background-color:  rgb(200, 148, 148);
+}
+.encriptar:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(246, 206, 160)
+}
+.desencriptar{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2PX;
+    display: inline;
+    text-align: center;
+    margin:10px 10px 10px 40px;
+    background-color:  rgb(200, 148, 148);
+   
+}
+
+.desencriptar:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(246, 206, 160)
+}
+.mensaje{
+    background-image: url("zorro DibujoHojasNaranja.jpg" );
+    background-repeat: no-repeat;
+    background-size: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: inline;
+    box-shadow: 10px 10px 30px 20px grey;
+    backdrop-filter:blur(4px); 
+    margin: 50px 30px 10px 30px; 
+}
+
+
+
+
+
+.copiar{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(200, 148, 148);
+    margin:0 0 0 300px;
+}
+.copiar:hover{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(246, 206, 160);
+
+
+}
+
+
+.realizadoPor{
+ margin: 20px 0 0 300px; 
+    
+}

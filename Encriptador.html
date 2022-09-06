@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+ <head>
+     <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style-Encriptador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+ </head>
+
+
+
+ <body>   
+    <header>
+      <img class="logoAlura" src="logoAlura.png">
+      <h1 class="titulo">¡Bienvenidos al Encriptador!</h1>
+      <h2 class="tituloh2">En este sitio usted podrá cifrar sus textos, copiarlos para compartir con quien udted desee.</h2>
+    </header>
+    <main>
+        <fieldset class="sabiasQue">¿Sabías qué?</fieldset>
+        <fieldset class="texto">Cifrar o encriptar algo
+        (una información) significa ocultar el contenido de un mensaje a simple vista, de manera que haga falta una interacción concreta para poder desvelar ese contenido. 
+        </fieldset> 
+
+        <div>
+          <textarea class="input-texto" cols="40" rows="12" placeholder="Ingrese su texto aquí"required ></textarea>
+
+          <textarea class="mensaje"cols="30" rows="12" ></textarea>
+          
+         </div>  
+       
+
+         <p class="importante"><em>
+            ⚠ "Solo se comprenderán textos con letras minúsculas y sin acentos."</em>
+         </p>
+          
+         <div>        
+         <button class="encriptar"onclick="btnEncriptar()">Encriptar</button>
+
+         <button class="desencriptar"   onclick="btnDesencriptar()">Desencriptar</button>
+
+         <button class="copiar" onclick="copiar()">copiar</button> 
+    
+        </div>
+    </main>
+    <script src="Encriptador-mio.js"></script>
+   
+ </body>
+
+
+
+ <footer>
+     
+  <p class="realizadoPor">Éste sitio web fue realizado por 
+       Anyelen Torres </p>
+ </footer>   
+</html>
